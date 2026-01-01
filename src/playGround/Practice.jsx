@@ -66,14 +66,14 @@ function Practice() {
           onClick={handleClick1}
           className="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 rounded-lg transition mb-4"
         >
-          Greet as Alice
+          Greet as Sonal
         </button>
 
         <button
           onClick={handleClick2}
           className="w-full bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 rounded-lg transition"
         >
-          Greet as Bob
+          Greet as Laxmi
         </button>
       </div>
     </div>
