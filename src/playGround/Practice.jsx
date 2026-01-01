@@ -39,15 +39,15 @@
 
 
 function Practice() {
-  const person1 = { name: "Alice" };
-  const person2 = { name: "Bob" };
+  const person1 = { name: "Sonal" };
+  const person2 = { name: "Laxmi" };
 
   function sayHello(mssg) {
     return `${mssg}, my name is ${this.name}`;
   }
 
   const handleClick1 = () => {
-    alert(sayHello.call(person1, "Hello Zakya"));
+    alert(sayHello.call(person1, "Hello"));
   };
 
   const handleClick2 = () => {
